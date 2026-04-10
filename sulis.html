@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Kartu Nesa</title>
+    <style>
+        /* CSS untuk tampilan */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .profile-card {
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            width: 320px;
+            padding: 30px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .profile-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #9face6;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            margin: 10px 0;
+            color: #333;
+            font-size: 24px;
+        }
+
+        .bio-info {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .info-item {
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            color: #555;
+            font-size: 14px;
+        }
+
+        .info-item strong {
+            width: 80px;
+            color: #74ebd5;
+            flex-shrink: 0;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #9face6;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <!-- Ganti URL gambar di bawah dengan foto Nesa -->
+        <img src="lis.jpg" alt="Foto Nesa" class="profile-img">
+        
+        <h2>Sulis</h2>
+        <span class="badge">Siswa SMK Komputama Majenang</span>
+
+        <div class="bio-info">
+            <div class="info-item">
+                <strong>TTL</strong>: 28 Agustus 2008
+            </div>
+            <div class="info-item">
+                <strong>Hobi</strong>: Mendengarkan Musik
+            </div>
+            <div class="info-item">
+                <strong>Alamat</strong>: Telagasari,Negarajati,Cimanggu
+            </div>
+            <div class="info-item">
+                <strong>Agama</strong>: Islam
+            </div>
+            <div class="info-item">
+                <strong>Sekolah</strong>: SMK Komputama Majenang
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
